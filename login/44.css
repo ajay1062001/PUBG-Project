@@ -1,0 +1,95 @@
+body {
+    background-position: center;
+    font-family: myriad pro;
+    font-weight: bolder;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    text-align: center;
+    margin-top: -45px;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fda212;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ff9100;
+}
+
+#Forget {
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    color: #fda212;
+    font-family: sans-serif;
+}
+
+#Home {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fda212;
+    float: right;
+    font-family: sans-serif;
+}
+
+.login-box a:hover {
+    color: #ff9100;
+}
+
+#login {
+    margin-left: 93px;
+    width: 89px;
+    margin-top: -29px;
+    margin-bottom: 42px;
+}
