@@ -1,0 +1,260 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.logo img {
+    position: absolute;
+    float: left;
+    width: 80px;
+    height: 60px;
+}
+
+ul {
+    width: auto;
+    margin-left: 10px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+#welcome {
+    width: 364px;
+    margin-left: -13px;
+}
+
+#pubg {
+    margin-top: 32px;
+    margin-left: 75px;
+}
+
+li a {
+    text-align: center;
+    color: #ff8831;
+    text-decoration: none;
+    font-family: myriad pro;
+    font-size: 20px;
+    border: 2px solid #ff8831;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px rgba(219, 219, 219, 0.2);
+}
+
+li a:hover {
+    background-color: #fda212;
+    color: black
+}
+
+.container {
+    bottom: 0px;
+    margin: 0px 70px;
+    box-sizing: border-box;
+}
+
+.img-container {
+    float: left;
+    box-sizing: border-box;
+}
+
+.img-container img {
+    height: 670px;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.text-container {
+    float: right;
+    width: 500px;
+    color: #fff;
+    margin-top: 168px;
+}
+
+.text {
+    width: 370px;
+    margin: 0px 40px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 30px;
+    color: #fda212;
+    font-family: bebas kai;
+    margin-left: -13px;
+}
+
+h2 {
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-family: bebas kai;
+    color: #ffffff;
+}
+
+.mode {
+    margin: 0px 0px 10px 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #1bafa8;
+    font-family: myriad pro;
+    margin-top: 19px;
+    margin-left: 35px;
+}
+
+input[type="button"] {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 105px;
+    border: none;
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-weight: bold;
+}
+
+.smoke img {
+    margin-top: -94px;
+    margin-left: -629px;
+}
+
+
+/*login page*/
+
+body {
+    background-position: center;
+    font-family: myriad pro;
+    font-weight: bolder;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    text-align: center;
+    margin-top: -45px;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fda212;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ff9100;
+}
+
+#Forget {
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    color: #fda212;
+    font-family: sans-serif;
+}
+
+#Home {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fda212;
+    float: right;
+    font-family: sans-serif;
+}
+
+.login-box a:hover {
+    color: #ff9100;
+}
+
+#login {
+    margin-left: 93px;
+    width: 89px;
+    margin-top: -29px;
+    margin-bottom: 42px;
+}
+
+.goback {
+    display: inline-block;
+    margin-left: 625px;
+    margin-top: 31px;
+}
+
+.goback a {
+    text-align: center;
+    color: #ff8831;
+    text-decoration: none;
+    font-family: myriad pro;
+    font-size: 20px;
+    border: 2px solid #ff8831;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px rgba(219, 219, 219, 0.2);
+}
+
+.goback a:hover {
+    background-color: #fda212;
+    color: black
+}
